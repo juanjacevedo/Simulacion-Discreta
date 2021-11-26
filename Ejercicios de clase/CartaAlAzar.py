@@ -9,4 +9,3 @@ for i in range(1,53):
     
 print(cartas[random.randint(0, len(cartas))])
 
-
