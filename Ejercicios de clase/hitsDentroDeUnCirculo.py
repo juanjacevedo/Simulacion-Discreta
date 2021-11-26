@@ -1,4 +1,6 @@
-def AreaTrian1():
+#Calcular el área de un circulo de  radio 1 por método Montercarlo
+
+def AreaTrian():
     import random as rnd
     n = int(input("Ingrese el número de simulaciones: "))
     i = 0
@@ -10,4 +12,4 @@ def AreaTrian1():
             H+=1
     return "El área es: " + str(4*H/n)
 
-print(AreaTrian1())
+print(AreaTrian())
